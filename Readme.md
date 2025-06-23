@@ -58,16 +58,16 @@ The following classes identify a custom Report Wizard page:
 
 **File to review:** [WizardCustomizationService](./CS/Customization/WizardCustomizationService.cs)
 
-WizardCustomizationService implements the IWizardCustomizationService interface. This interface exposes methods and allows you to register custom Report Wizard page content and obtain Wizard-related resources. 
+`WizardCustomizationService` implements the `IWizardCustomizationService` interface. This interface exposes methods and allows you to register custom Report Wizard page content and obtain Wizard-related resources. 
 
 The following pages are registered:
 
 |View|Presenter|
 |---|---|
 |ChooseReportCreationModePageView|ChooseReportCreationModePage|
-|AIChooseDataSourceOptionPageView|AIChooseDataSourceOptionPage|
-|AINoDataEnterReportPromptPageView|AINoDataEnterReportPromptPage|
-|AIDataBoundEnterReportPromptPageView|AIDataBoundEnterReportPromptPage|
+|[AIChooseDataSourceOptionPageView](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.WinForms.Reporting.Wizard.Views.AIChooseDataSourceOptionPageView)|[AIChooseDataSourceOptionPage](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.Reporting.Wizard.Presenters.AIChooseDataSourceOptionPage-1?v=25.1&p=netframework)|
+|[AINoDataEnterReportPromptPageView](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.WinForms.Reporting.Wizard.Views.AINoDataEnterReportPromptPageView?v=25.1&p=netframework)|[AINoDataEnterReportPromptPage](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.Reporting.Wizard.Presenters.AINoDataEnterReportPromptPage-1?v=25.1&p=netframework)|
+|[AIDataBoundEnterReportPromptPageView](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.WinForms.Reporting.Wizard.Views.AIDataBoundEnterReportPromptPageView?v=25.1&p=netframework)|[AIDataBoundEnterReportPromptPage](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.Reporting.Wizard.Presenters.AIDataBoundEnterReportPromptPage-1?v=25.1&p=netframework)|
 
 * `SetAIParameters()` - initializes default values for AI settings. 
 
@@ -77,7 +77,7 @@ The following pages are registered:
 
 **File to review:** [WizardCustomizationService](./CS/Customization/WizardCustomizationService.cs)
 
-Use [AIReportBuilder](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.WinForms.Reporting.Wizard.AIReportBuilder?v=25.1&p=netframework) to build an AI-generated report based on the resulting report model.  #
+Use [AIReportBuilder](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.WinForms.Reporting.Wizard.AIReportBuilder?v=25.1&p=netframework) to build an AI-generated report based on the resulting report model.  
 
 ## Register AI Client
 
