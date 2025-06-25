@@ -26,11 +26,11 @@ Namespace AIWizardCustomizationExample.Customization
 
         Public Overrides Sub Begin()
             View.CreationMode = If(Model.GetIsAIReportType(), ReportCreationMode.AI, ReportCreationMode.Standard)
-            AddHandler Me.View.CreationModeChanged, AddressOf OnCreationModeChanged
+            Me.View.CreationModeChanged += AddressOf OnCreationModeChanged
         End Sub
 
         Public Overrides Sub Commit()
-            RemoveHandler Me.View.CreationModeChanged, AddressOf OnCreationModeChanged
+            Me.View.CreationModeChanged -= AddressOf OnCreationModeChanged
             Model.SetIsAIReportType(View.CreationMode = ReportCreationMode.AI)
         End Sub
 
@@ -38,7 +38,7 @@ Namespace AIWizardCustomizationExample.Customization
             Return If(View.CreationMode = ReportCreationMode.Standard, GetType(ChooseReportTypePage(Of XtraReportModel)), GetType(AIChooseDataSourceOptionPage(Of XtraReportModel)))
         End Function
 
-        Private Sub OnCreationModeChanged(ByVal sender As Object, ByVal e As EventArgs)
+        Private Sub OnCreationModeChanged(ByVal sender As Object?, ByVal e As EventArgs)
             RaiseChanged()
         End Sub
     End Class

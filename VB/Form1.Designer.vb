@@ -2650,7 +2650,7 @@ Namespace AIWizardCustomizationExample
             Me.commandBarItem390 = New DevExpress.XtraReports.UserDesigner.CommandBarItem()
             Me.printPreviewStaticItem6 = New DevExpress.XtraPrinting.Preview.PrintPreviewStaticItem()
             Me.zoomTrackBarEditItem3 = New DevExpress.XtraPrinting.Preview.ZoomTrackBarEditItem()
-            Me.button1 = New System.Windows.Forms.Button()
+            Me.button1 = New Button()
             CType(Me.xrDesignRibbonController1, System.ComponentModel.ISupportInitialize).BeginInit()
             CType(Me.ribbonControl1, System.ComponentModel.ISupportInitialize).BeginInit()
             CType(Me.applicationMenu1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -2691,11 +2691,11 @@ Namespace AIWizardCustomizationExample
             Me.ribbonControl1.ApplicationButtonDropDownControl = Me.applicationMenu1
             Me.ribbonControl1.AutoHideEmptyItems = True
             Me.ribbonControl1.AutoSizeItems = True
-            Me.ribbonControl1.EmptyAreaImageOptions.ImagePadding = New System.Windows.Forms.Padding(17, 19, 17, 19)
+            Me.ribbonControl1.EmptyAreaImageOptions.ImagePadding = New Padding(17, 19, 17, 19)
             Me.ribbonControl1.ExpandCollapseItem.Id = 232
             Me.ribbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.ribbonControl1.ExpandCollapseItem})
-            Me.ribbonControl1.Location = New System.Drawing.Point(0, 0)
-            Me.ribbonControl1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+            Me.ribbonControl1.Location = New Point(0, 0)
+            Me.ribbonControl1.Margin = New Padding(2, 2, 2, 2)
             Me.ribbonControl1.MaxItemId = 233
             Me.ribbonControl1.Name = "ribbonControl1"
             Me.ribbonControl1.OptionsMenuMinWidth = 192
@@ -2703,7 +2703,7 @@ Namespace AIWizardCustomizationExample
             Me.ribbonControl1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.homeRibbonPage, Me.layoutRibbonPage, Me.pageRibbonPage, Me.viewRibbonPage, Me.scriptsRibbonPage, Me.printPreviewRibbonPage})
             Me.ribbonControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.recentlyUsedItemsComboBox1, Me.designRepositoryItemComboBox1, Me.repositoryItemLookUpEdit1, Me.repositoryItemSpinEdit1, Me.repositoryItemSpinEdit2, Me.repositoryItemSpinEdit3, Me.repositoryItemSpinEdit4, Me.repositoryItemImageComboBox1, Me.repositoryItemLookUpEdit2, Me.repositoryItemComboBox1, Me.repositoryItemProgressBar1, Me.repositoryItemZoomTrackBar1})
             Me.ribbonControl1.ShowItemCaptionsInPageHeader = True
-            Me.ribbonControl1.Size = New System.Drawing.Size(1573, 193)
+            Me.ribbonControl1.Size = New Size(1573, 193)
             Me.ribbonControl1.StatusBar = Me.ribbonStatusBar1
             Me.ribbonControl1.TransparentEditorsMode = DevExpress.Utils.DefaultBoolean.[True]
             ' 
@@ -2715,7 +2715,7 @@ Namespace AIWizardCustomizationExample
             ' 
             ' characterCombRibbonPageCategory
             ' 
-            Me.characterCombRibbonPageCategory.Appearance.BackColor = System.Drawing.Color.FromArgb(CInt(CByte(147)), CInt(CByte(94)), CInt(CByte(211)))
+            Me.characterCombRibbonPageCategory.Appearance.BackColor = Color.FromArgb(CInt(CByte(147)), CInt(CByte(94)), CInt(CByte(211)))
             Me.characterCombRibbonPageCategory.Appearance.Options.UseBackColor = True
             Me.characterCombRibbonPageCategory.AutoStretchPageHeaders = True
             Me.characterCombRibbonPageCategory.Name = "characterCombRibbonPageCategory"
@@ -2740,7 +2740,7 @@ Namespace AIWizardCustomizationExample
             ' 
             ' tableRibbonPageCategory
             ' 
-            Me.tableRibbonPageCategory.Appearance.BackColor = System.Drawing.Color.FromArgb(CInt(CByte(242)), CInt(CByte(203)), CInt(CByte(29)))
+            Me.tableRibbonPageCategory.Appearance.BackColor = Color.FromArgb(CInt(CByte(242)), CInt(CByte(203)), CInt(CByte(29)))
             Me.tableRibbonPageCategory.Appearance.Options.UseBackColor = True
             Me.tableRibbonPageCategory.AutoStretchPageHeaders = True
             Me.tableRibbonPageCategory.Name = "tableRibbonPageCategory"
@@ -2797,7 +2797,7 @@ Namespace AIWizardCustomizationExample
             ' 
             ' chartRibbonPageCategory
             ' 
-            Me.chartRibbonPageCategory.Appearance.BackColor = System.Drawing.Color.FromArgb(CInt(CByte(73)), CInt(CByte(163)), CInt(CByte(73)))
+            Me.chartRibbonPageCategory.Appearance.BackColor = Color.FromArgb(CInt(CByte(73)), CInt(CByte(163)), CInt(CByte(73)))
             Me.chartRibbonPageCategory.Appearance.Options.UseBackColor = True
             Me.chartRibbonPageCategory.AutoStretchPageHeaders = True
             Me.chartRibbonPageCategory.Name = "chartRibbonPageCategory"
@@ -2854,7 +2854,7 @@ Namespace AIWizardCustomizationExample
             ' 
             ' pivotGridRibbonPageCategory
             ' 
-            Me.pivotGridRibbonPageCategory.Appearance.BackColor = System.Drawing.Color.FromArgb(CInt(CByte(201)), CInt(CByte(89)), CInt(CByte(156)))
+            Me.pivotGridRibbonPageCategory.Appearance.BackColor = Color.FromArgb(CInt(CByte(201)), CInt(CByte(89)), CInt(CByte(156)))
             Me.pivotGridRibbonPageCategory.Appearance.Options.UseBackColor = True
             Me.pivotGridRibbonPageCategory.AutoStretchPageHeaders = True
             Me.pivotGridRibbonPageCategory.Name = "pivotGridRibbonPageCategory"
@@ -2903,7 +2903,7 @@ Namespace AIWizardCustomizationExample
             ' 
             ' barCodeRibbonPageCategory
             ' 
-            Me.barCodeRibbonPageCategory.Appearance.BackColor = System.Drawing.Color.FromArgb(CInt(CByte(147)), CInt(CByte(94)), CInt(CByte(211)))
+            Me.barCodeRibbonPageCategory.Appearance.BackColor = Color.FromArgb(CInt(CByte(147)), CInt(CByte(94)), CInt(CByte(211)))
             Me.barCodeRibbonPageCategory.Appearance.Options.UseBackColor = True
             Me.barCodeRibbonPageCategory.AutoStretchPageHeaders = True
             Me.barCodeRibbonPageCategory.Name = "barCodeRibbonPageCategory"
@@ -2936,7 +2936,7 @@ Namespace AIWizardCustomizationExample
             ' 
             ' gaugeRibbonPageCategory
             ' 
-            Me.gaugeRibbonPageCategory.Appearance.BackColor = System.Drawing.Color.FromArgb(CInt(CByte(255)), CInt(CByte(157)), CInt(CByte(0)))
+            Me.gaugeRibbonPageCategory.Appearance.BackColor = Color.FromArgb(CInt(CByte(255)), CInt(CByte(157)), CInt(CByte(0)))
             Me.gaugeRibbonPageCategory.Appearance.Options.UseBackColor = True
             Me.gaugeRibbonPageCategory.AutoStretchPageHeaders = True
             Me.gaugeRibbonPageCategory.Name = "gaugeRibbonPageCategory"
@@ -2969,7 +2969,7 @@ Namespace AIWizardCustomizationExample
             ' 
             ' sparklineRibbonPageCategory
             ' 
-            Me.sparklineRibbonPageCategory.Appearance.BackColor = System.Drawing.Color.FromArgb(CInt(CByte(73)), CInt(CByte(163)), CInt(CByte(73)))
+            Me.sparklineRibbonPageCategory.Appearance.BackColor = Color.FromArgb(CInt(CByte(73)), CInt(CByte(163)), CInt(CByte(73)))
             Me.sparklineRibbonPageCategory.Appearance.Options.UseBackColor = True
             Me.sparklineRibbonPageCategory.AutoStretchPageHeaders = True
             Me.sparklineRibbonPageCategory.Name = "sparklineRibbonPageCategory"
@@ -3002,7 +3002,7 @@ Namespace AIWizardCustomizationExample
             ' 
             ' shapeRibbonPageCategory
             ' 
-            Me.shapeRibbonPageCategory.Appearance.BackColor = System.Drawing.Color.FromArgb(CInt(CByte(255)), CInt(CByte(157)), CInt(CByte(0)))
+            Me.shapeRibbonPageCategory.Appearance.BackColor = Color.FromArgb(CInt(CByte(255)), CInt(CByte(157)), CInt(CByte(0)))
             Me.shapeRibbonPageCategory.Appearance.Options.UseBackColor = True
             Me.shapeRibbonPageCategory.AutoStretchPageHeaders = True
             Me.shapeRibbonPageCategory.Name = "shapeRibbonPageCategory"
@@ -3027,7 +3027,7 @@ Namespace AIWizardCustomizationExample
             ' 
             ' labelRibbonPageCategory
             ' 
-            Me.labelRibbonPageCategory.Appearance.BackColor = System.Drawing.Color.FromArgb(CInt(CByte(158)), CInt(CByte(197)), CInt(CByte(126)))
+            Me.labelRibbonPageCategory.Appearance.BackColor = Color.FromArgb(CInt(CByte(158)), CInt(CByte(197)), CInt(CByte(126)))
             Me.labelRibbonPageCategory.Appearance.Options.UseBackColor = True
             Me.labelRibbonPageCategory.AutoStretchPageHeaders = True
             Me.labelRibbonPageCategory.Name = "labelRibbonPageCategory"
@@ -3331,7 +3331,7 @@ Namespace AIWizardCustomizationExample
             ' 
             ' recentlyUsedItemsComboBox1
             ' 
-            Me.recentlyUsedItemsComboBox1.AppearanceDropDown.Font = New System.Drawing.Font("Tahoma", 11.25F)
+            Me.recentlyUsedItemsComboBox1.AppearanceDropDown.Font = New Font("Tahoma", 11.25F)
             Me.recentlyUsedItemsComboBox1.AppearanceDropDown.Options.UseFont = True
             Me.recentlyUsedItemsComboBox1.AutoHeight = False
             Me.recentlyUsedItemsComboBox1.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -3409,11 +3409,11 @@ Namespace AIWizardCustomizationExample
             ' 
             ' ribbonStatusBar1
             ' 
-            Me.ribbonStatusBar1.Location = New System.Drawing.Point(0, 673)
-            Me.ribbonStatusBar1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+            Me.ribbonStatusBar1.Location = New Point(0, 673)
+            Me.ribbonStatusBar1.Margin = New Padding(2, 2, 2, 2)
             Me.ribbonStatusBar1.Name = "ribbonStatusBar1"
             Me.ribbonStatusBar1.Ribbon = Me.ribbonControl1
-            Me.ribbonStatusBar1.Size = New System.Drawing.Size(1573, 30)
+            Me.ribbonStatusBar1.Size = New Size(1573, 30)
             ' 
             ' xrDesignDockManager1
             ' 
@@ -3428,11 +3428,11 @@ Namespace AIWizardCustomizationExample
             Me.panelContainer1.Controls.Add(Me.panelContainer3)
             Me.panelContainer1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Right
             Me.panelContainer1.ID = New Guid("1f63edf6-5f7a-4c09-8688-ff339a62a2c1")
-            Me.panelContainer1.Location = New System.Drawing.Point(635, 193)
-            Me.panelContainer1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+            Me.panelContainer1.Location = New Point(635, 193)
+            Me.panelContainer1.Margin = New Padding(2, 2, 2, 2)
             Me.panelContainer1.Name = "panelContainer1"
-            Me.panelContainer1.OriginalSize = New System.Drawing.Size(750, 200)
-            Me.panelContainer1.Size = New System.Drawing.Size(938, 480)
+            Me.panelContainer1.OriginalSize = New Size(750, 200)
+            Me.panelContainer1.Size = New Size(938, 480)
             Me.panelContainer1.Text = "panelContainer1"
             ' 
             ' panelContainer2
@@ -3442,11 +3442,11 @@ Namespace AIWizardCustomizationExample
             Me.panelContainer2.Controls.Add(Me.fieldListDockPanel1)
             Me.panelContainer2.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill
             Me.panelContainer2.ID = New Guid("61258954-98d1-40b2-aa9d-09b2ac3024e2")
-            Me.panelContainer2.Location = New System.Drawing.Point(0, 0)
-            Me.panelContainer2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+            Me.panelContainer2.Location = New Point(0, 0)
+            Me.panelContainer2.Margin = New Padding(2, 2, 2, 2)
             Me.panelContainer2.Name = "panelContainer2"
-            Me.panelContainer2.OriginalSize = New System.Drawing.Size(751, 370)
-            Me.panelContainer2.Size = New System.Drawing.Size(938, 240)
+            Me.panelContainer2.OriginalSize = New Size(751, 370)
+            Me.panelContainer2.Size = New Size(938, 240)
             Me.panelContainer2.Tabbed = True
             Me.panelContainer2.Text = "panelContainer2"
             ' 
@@ -3455,19 +3455,19 @@ Namespace AIWizardCustomizationExample
             Me.reportExplorerDockPanel1.Controls.Add(Me.reportExplorerDockPanel1_Container)
             Me.reportExplorerDockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill
             Me.reportExplorerDockPanel1.ID = New Guid("fb3ec6cc-3b9b-4b9c-91cf-cff78c1edbf1")
-            Me.reportExplorerDockPanel1.Location = New System.Drawing.Point(1, 28)
-            Me.reportExplorerDockPanel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+            Me.reportExplorerDockPanel1.Location = New Point(1, 28)
+            Me.reportExplorerDockPanel1.Margin = New Padding(2, 2, 2, 2)
             Me.reportExplorerDockPanel1.Name = "reportExplorerDockPanel1"
-            Me.reportExplorerDockPanel1.OriginalSize = New System.Drawing.Size(747, 277)
-            Me.reportExplorerDockPanel1.Size = New System.Drawing.Size(937, 180)
+            Me.reportExplorerDockPanel1.OriginalSize = New Size(747, 277)
+            Me.reportExplorerDockPanel1.Size = New Size(937, 180)
             Me.reportExplorerDockPanel1.Text = "Report Explorer"
             ' 
             ' reportExplorerDockPanel1_Container
             ' 
-            Me.reportExplorerDockPanel1_Container.Location = New System.Drawing.Point(0, 0)
-            Me.reportExplorerDockPanel1_Container.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+            Me.reportExplorerDockPanel1_Container.Location = New Point(0, 0)
+            Me.reportExplorerDockPanel1_Container.Margin = New Padding(2, 2, 2, 2)
             Me.reportExplorerDockPanel1_Container.Name = "reportExplorerDockPanel1_Container"
-            Me.reportExplorerDockPanel1_Container.Size = New System.Drawing.Size(937, 180)
+            Me.reportExplorerDockPanel1_Container.Size = New Size(937, 180)
             Me.reportExplorerDockPanel1_Container.TabIndex = 0
             ' 
             ' fieldListDockPanel1
@@ -3475,19 +3475,19 @@ Namespace AIWizardCustomizationExample
             Me.fieldListDockPanel1.Controls.Add(Me.fieldListDockPanel1_Container)
             Me.fieldListDockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill
             Me.fieldListDockPanel1.ID = New Guid("faf69838-a93f-4114-83e8-d0d09cc5ce95")
-            Me.fieldListDockPanel1.Location = New System.Drawing.Point(1, 28)
-            Me.fieldListDockPanel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+            Me.fieldListDockPanel1.Location = New Point(1, 28)
+            Me.fieldListDockPanel1.Margin = New Padding(2, 2, 2, 2)
             Me.fieldListDockPanel1.Name = "fieldListDockPanel1"
-            Me.fieldListDockPanel1.OriginalSize = New System.Drawing.Size(747, 277)
-            Me.fieldListDockPanel1.Size = New System.Drawing.Size(937, 180)
+            Me.fieldListDockPanel1.OriginalSize = New Size(747, 277)
+            Me.fieldListDockPanel1.Size = New Size(937, 180)
             Me.fieldListDockPanel1.Text = "Field List"
             ' 
             ' fieldListDockPanel1_Container
             ' 
-            Me.fieldListDockPanel1_Container.Location = New System.Drawing.Point(0, 0)
-            Me.fieldListDockPanel1_Container.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+            Me.fieldListDockPanel1_Container.Location = New Point(0, 0)
+            Me.fieldListDockPanel1_Container.Margin = New Padding(2, 2, 2, 2)
             Me.fieldListDockPanel1_Container.Name = "fieldListDockPanel1_Container"
-            Me.fieldListDockPanel1_Container.Size = New System.Drawing.Size(937, 180)
+            Me.fieldListDockPanel1_Container.Size = New Size(937, 180)
             Me.fieldListDockPanel1_Container.TabIndex = 0
             ' 
             ' panelContainer3
@@ -3497,11 +3497,11 @@ Namespace AIWizardCustomizationExample
             Me.panelContainer3.Controls.Add(Me.reportGalleryDockPanel1)
             Me.panelContainer3.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill
             Me.panelContainer3.ID = New Guid("3e37460c-3ef7-430d-9728-333e621d182c")
-            Me.panelContainer3.Location = New System.Drawing.Point(0, 240)
-            Me.panelContainer3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+            Me.panelContainer3.Location = New Point(0, 240)
+            Me.panelContainer3.Margin = New Padding(2, 2, 2, 2)
             Me.panelContainer3.Name = "panelContainer3"
-            Me.panelContainer3.OriginalSize = New System.Drawing.Size(751, 370)
-            Me.panelContainer3.Size = New System.Drawing.Size(938, 240)
+            Me.panelContainer3.OriginalSize = New Size(751, 370)
+            Me.panelContainer3.Size = New Size(938, 240)
             Me.panelContainer3.Tabbed = True
             Me.panelContainer3.Text = "panelContainer3"
             ' 
@@ -3510,19 +3510,19 @@ Namespace AIWizardCustomizationExample
             Me.propertyGridDockPanel1.Controls.Add(Me.propertyGridDockPanel1_Container)
             Me.propertyGridDockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill
             Me.propertyGridDockPanel1.ID = New Guid("b38d12c3-cd06-4dec-b93d-63a0088e495a")
-            Me.propertyGridDockPanel1.Location = New System.Drawing.Point(1, 29)
-            Me.propertyGridDockPanel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+            Me.propertyGridDockPanel1.Location = New Point(1, 29)
+            Me.propertyGridDockPanel1.Margin = New Padding(2, 2, 2, 2)
             Me.propertyGridDockPanel1.Name = "propertyGridDockPanel1"
-            Me.propertyGridDockPanel1.OriginalSize = New System.Drawing.Size(747, 273)
-            Me.propertyGridDockPanel1.Size = New System.Drawing.Size(937, 179)
+            Me.propertyGridDockPanel1.OriginalSize = New Size(747, 273)
+            Me.propertyGridDockPanel1.Size = New Size(937, 179)
             Me.propertyGridDockPanel1.Text = "Properties"
             ' 
             ' propertyGridDockPanel1_Container
             ' 
-            Me.propertyGridDockPanel1_Container.Location = New System.Drawing.Point(0, 0)
-            Me.propertyGridDockPanel1_Container.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+            Me.propertyGridDockPanel1_Container.Location = New Point(0, 0)
+            Me.propertyGridDockPanel1_Container.Margin = New Padding(2, 2, 2, 2)
             Me.propertyGridDockPanel1_Container.Name = "propertyGridDockPanel1_Container"
-            Me.propertyGridDockPanel1_Container.Size = New System.Drawing.Size(937, 179)
+            Me.propertyGridDockPanel1_Container.Size = New Size(937, 179)
             Me.propertyGridDockPanel1_Container.TabIndex = 0
             ' 
             ' reportGalleryDockPanel1
@@ -3530,19 +3530,19 @@ Namespace AIWizardCustomizationExample
             Me.reportGalleryDockPanel1.Controls.Add(Me.reportGalleryDockPanel1_Container)
             Me.reportGalleryDockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill
             Me.reportGalleryDockPanel1.ID = New Guid("7cd5b1e8-63bb-46f7-af65-af61eb851a38")
-            Me.reportGalleryDockPanel1.Location = New System.Drawing.Point(1, 29)
-            Me.reportGalleryDockPanel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+            Me.reportGalleryDockPanel1.Location = New Point(1, 29)
+            Me.reportGalleryDockPanel1.Margin = New Padding(2, 2, 2, 2)
             Me.reportGalleryDockPanel1.Name = "reportGalleryDockPanel1"
-            Me.reportGalleryDockPanel1.OriginalSize = New System.Drawing.Size(747, 273)
-            Me.reportGalleryDockPanel1.Size = New System.Drawing.Size(937, 179)
+            Me.reportGalleryDockPanel1.OriginalSize = New Size(747, 273)
+            Me.reportGalleryDockPanel1.Size = New Size(937, 179)
             Me.reportGalleryDockPanel1.Text = "Report Gallery"
             ' 
             ' reportGalleryDockPanel1_Container
             ' 
-            Me.reportGalleryDockPanel1_Container.Location = New System.Drawing.Point(0, 0)
-            Me.reportGalleryDockPanel1_Container.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+            Me.reportGalleryDockPanel1_Container.Location = New Point(0, 0)
+            Me.reportGalleryDockPanel1_Container.Margin = New Padding(2, 2, 2, 2)
             Me.reportGalleryDockPanel1_Container.Name = "reportGalleryDockPanel1_Container"
-            Me.reportGalleryDockPanel1_Container.Size = New System.Drawing.Size(937, 179)
+            Me.reportGalleryDockPanel1_Container.Size = New Size(937, 179)
             Me.reportGalleryDockPanel1_Container.TabIndex = 0
             ' 
             ' panelContainer4
@@ -3552,11 +3552,11 @@ Namespace AIWizardCustomizationExample
             Me.panelContainer4.Controls.Add(Me.errorListDockPanel1)
             Me.panelContainer4.Dock = DevExpress.XtraBars.Docking.DockingStyle.Bottom
             Me.panelContainer4.ID = New Guid("a944d466-aa4c-4815-978f-5922a4e730fe")
-            Me.panelContainer4.Location = New System.Drawing.Point(0, 173)
-            Me.panelContainer4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+            Me.panelContainer4.Location = New Point(0, 173)
+            Me.panelContainer4.Margin = New Padding(2, 2, 2, 2)
             Me.panelContainer4.Name = "panelContainer4"
-            Me.panelContainer4.OriginalSize = New System.Drawing.Size(200, 400)
-            Me.panelContainer4.Size = New System.Drawing.Size(635, 500)
+            Me.panelContainer4.OriginalSize = New Size(200, 400)
+            Me.panelContainer4.Size = New Size(635, 500)
             Me.panelContainer4.Tabbed = True
             Me.panelContainer4.Text = "panelContainer4"
             ' 
@@ -3565,19 +3565,19 @@ Namespace AIWizardCustomizationExample
             Me.groupAndSortDockPanel1.Controls.Add(Me.groupAndSortDockPanel1_Container)
             Me.groupAndSortDockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill
             Me.groupAndSortDockPanel1.ID = New Guid("4bab159e-c495-4d67-87dc-f4e895da443e")
-            Me.groupAndSortDockPanel1.Location = New System.Drawing.Point(0, 29)
-            Me.groupAndSortDockPanel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+            Me.groupAndSortDockPanel1.Location = New Point(0, 29)
+            Me.groupAndSortDockPanel1.Margin = New Padding(2, 2, 2, 2)
             Me.groupAndSortDockPanel1.Name = "groupAndSortDockPanel1"
-            Me.groupAndSortDockPanel1.OriginalSize = New System.Drawing.Size(1946, 303)
-            Me.groupAndSortDockPanel1.Size = New System.Drawing.Size(635, 439)
+            Me.groupAndSortDockPanel1.OriginalSize = New Size(1946, 303)
+            Me.groupAndSortDockPanel1.Size = New Size(635, 439)
             Me.groupAndSortDockPanel1.Text = "Group and Sort"
             ' 
             ' groupAndSortDockPanel1_Container
             ' 
-            Me.groupAndSortDockPanel1_Container.Location = New System.Drawing.Point(0, 0)
-            Me.groupAndSortDockPanel1_Container.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+            Me.groupAndSortDockPanel1_Container.Location = New Point(0, 0)
+            Me.groupAndSortDockPanel1_Container.Margin = New Padding(2, 2, 2, 2)
             Me.groupAndSortDockPanel1_Container.Name = "groupAndSortDockPanel1_Container"
-            Me.groupAndSortDockPanel1_Container.Size = New System.Drawing.Size(635, 439)
+            Me.groupAndSortDockPanel1_Container.Size = New Size(635, 439)
             Me.groupAndSortDockPanel1_Container.TabIndex = 0
             ' 
             ' errorListDockPanel1
@@ -3585,19 +3585,19 @@ Namespace AIWizardCustomizationExample
             Me.errorListDockPanel1.Controls.Add(Me.errorListDockPanel1_Container)
             Me.errorListDockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill
             Me.errorListDockPanel1.ID = New Guid("5a9a01fd-6e95-4e81-a8c4-ac63153d7488")
-            Me.errorListDockPanel1.Location = New System.Drawing.Point(0, 29)
-            Me.errorListDockPanel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+            Me.errorListDockPanel1.Location = New Point(0, 29)
+            Me.errorListDockPanel1.Margin = New Padding(2, 2, 2, 2)
             Me.errorListDockPanel1.Name = "errorListDockPanel1"
-            Me.errorListDockPanel1.OriginalSize = New System.Drawing.Size(1946, 303)
-            Me.errorListDockPanel1.Size = New System.Drawing.Size(635, 439)
+            Me.errorListDockPanel1.OriginalSize = New Size(1946, 303)
+            Me.errorListDockPanel1.Size = New Size(635, 439)
             Me.errorListDockPanel1.Text = "Report Design Analyzer"
             ' 
             ' errorListDockPanel1_Container
             ' 
-            Me.errorListDockPanel1_Container.Location = New System.Drawing.Point(0, 0)
-            Me.errorListDockPanel1_Container.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+            Me.errorListDockPanel1_Container.Location = New Point(0, 0)
+            Me.errorListDockPanel1_Container.Margin = New Padding(2, 2, 2, 2)
             Me.errorListDockPanel1_Container.Name = "errorListDockPanel1_Container"
-            Me.errorListDockPanel1_Container.Size = New System.Drawing.Size(635, 439)
+            Me.errorListDockPanel1_Container.Size = New Size(635, 439)
             Me.errorListDockPanel1_Container.TabIndex = 0
             ' 
             ' commandBarItem1
@@ -5057,7 +5057,7 @@ Namespace AIWizardCustomizationExample
             Me.commandGalleryBarItem1.Gallery.Appearance.ItemCaptionAppearance.Pressed.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
             Me.commandGalleryBarItem1.Gallery.Appearance.ItemCaptionAppearance.Pressed.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter
             Me.commandGalleryBarItem1.Gallery.ColumnCount = 7
-            Me.commandGalleryBarItem1.Gallery.ImageSize = New System.Drawing.Size(75, 30)
+            Me.commandGalleryBarItem1.Gallery.ImageSize = New Size(75, 30)
             Me.commandGalleryBarItem1.Gallery.ItemCheckMode = DevExpress.XtraBars.Ribbon.Gallery.ItemCheckMode.SingleCheck
             Me.commandGalleryBarItem1.Gallery.ShowItemText = True
             Me.commandGalleryBarItem1.Id = 89
@@ -5071,7 +5071,7 @@ Namespace AIWizardCustomizationExample
             ' 
             ' 
             Me.commandGalleryBarItem2.Gallery.ColumnCount = 8
-            Me.commandGalleryBarItem2.Gallery.ImageSize = New System.Drawing.Size(100, 33)
+            Me.commandGalleryBarItem2.Gallery.ImageSize = New Size(100, 33)
             Me.commandGalleryBarItem2.Gallery.ItemCheckMode = DevExpress.XtraBars.Ribbon.Gallery.ItemCheckMode.SingleRadio
             Me.commandGalleryBarItem2.Gallery.ShowItemText = True
             Me.commandGalleryBarItem2.Id = 90
@@ -5085,7 +5085,7 @@ Namespace AIWizardCustomizationExample
             ' 
             ' 
             Me.commandGalleryBarItem3.Gallery.ColumnCount = 7
-            Me.commandGalleryBarItem3.Gallery.ImageSize = New System.Drawing.Size(75, 45)
+            Me.commandGalleryBarItem3.Gallery.ImageSize = New Size(75, 45)
             Me.commandGalleryBarItem3.Gallery.ItemCheckMode = DevExpress.XtraBars.Ribbon.Gallery.ItemCheckMode.SingleRadio
             Me.commandGalleryBarItem3.Id = 91
             Me.commandGalleryBarItem3.Name = "commandGalleryBarItem3"
@@ -5098,7 +5098,7 @@ Namespace AIWizardCustomizationExample
             ' 
             ' 
             Me.commandGalleryBarItem4.Gallery.ColumnCount = 4
-            Me.commandGalleryBarItem4.Gallery.ImageSize = New System.Drawing.Size(48, 48)
+            Me.commandGalleryBarItem4.Gallery.ImageSize = New Size(48, 48)
             Me.commandGalleryBarItem4.Gallery.ItemCheckMode = DevExpress.XtraBars.Ribbon.Gallery.ItemCheckMode.SingleRadio
             Me.commandGalleryBarItem4.Id = 92
             Me.commandGalleryBarItem4.Name = "commandGalleryBarItem4"
@@ -5111,7 +5111,7 @@ Namespace AIWizardCustomizationExample
             ' 
             ' 
             Me.commandGalleryBarItem5.Gallery.ColumnCount = 7
-            Me.commandGalleryBarItem5.Gallery.ImageSize = New System.Drawing.Size(48, 48)
+            Me.commandGalleryBarItem5.Gallery.ImageSize = New Size(48, 48)
             Me.commandGalleryBarItem5.Gallery.ItemCheckMode = DevExpress.XtraBars.Ribbon.Gallery.ItemCheckMode.SingleRadio
             Me.commandGalleryBarItem5.Id = 93
             Me.commandGalleryBarItem5.Name = "commandGalleryBarItem5"
@@ -5125,7 +5125,7 @@ Namespace AIWizardCustomizationExample
             ' 
             Me.commandGalleryBarItem6.Gallery.ColumnCount = 23
             Me.commandGalleryBarItem6.Gallery.DistanceBetweenItems = 16
-            Me.commandGalleryBarItem6.Gallery.ImageSize = New System.Drawing.Size(64, 64)
+            Me.commandGalleryBarItem6.Gallery.ImageSize = New Size(64, 64)
             Me.commandGalleryBarItem6.Gallery.ScaleImages = DevExpress.Utils.DefaultBoolean.[True]
             Me.commandGalleryBarItem6.Id = 94
             Me.commandGalleryBarItem6.Name = "commandGalleryBarItem6"
@@ -8600,7 +8600,7 @@ Namespace AIWizardCustomizationExample
             Me.commandGalleryBarItem7.Gallery.Appearance.ItemCaptionAppearance.Pressed.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
             Me.commandGalleryBarItem7.Gallery.Appearance.ItemCaptionAppearance.Pressed.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter
             Me.commandGalleryBarItem7.Gallery.ColumnCount = 7
-            Me.commandGalleryBarItem7.Gallery.ImageSize = New System.Drawing.Size(75, 30)
+            Me.commandGalleryBarItem7.Gallery.ImageSize = New Size(75, 30)
             Me.commandGalleryBarItem7.Gallery.ItemCheckMode = DevExpress.XtraBars.Ribbon.Gallery.ItemCheckMode.SingleCheck
             Me.commandGalleryBarItem7.Gallery.ShowItemText = True
             Me.commandGalleryBarItem7.Id = 89
@@ -8614,7 +8614,7 @@ Namespace AIWizardCustomizationExample
             ' 
             ' 
             Me.commandGalleryBarItem8.Gallery.ColumnCount = 8
-            Me.commandGalleryBarItem8.Gallery.ImageSize = New System.Drawing.Size(100, 33)
+            Me.commandGalleryBarItem8.Gallery.ImageSize = New Size(100, 33)
             Me.commandGalleryBarItem8.Gallery.ItemCheckMode = DevExpress.XtraBars.Ribbon.Gallery.ItemCheckMode.SingleRadio
             Me.commandGalleryBarItem8.Gallery.ShowItemText = True
             Me.commandGalleryBarItem8.Id = 90
@@ -8628,7 +8628,7 @@ Namespace AIWizardCustomizationExample
             ' 
             ' 
             Me.commandGalleryBarItem9.Gallery.ColumnCount = 7
-            Me.commandGalleryBarItem9.Gallery.ImageSize = New System.Drawing.Size(75, 45)
+            Me.commandGalleryBarItem9.Gallery.ImageSize = New Size(75, 45)
             Me.commandGalleryBarItem9.Gallery.ItemCheckMode = DevExpress.XtraBars.Ribbon.Gallery.ItemCheckMode.SingleRadio
             Me.commandGalleryBarItem9.Id = 91
             Me.commandGalleryBarItem9.Name = "commandGalleryBarItem9"
@@ -8641,7 +8641,7 @@ Namespace AIWizardCustomizationExample
             ' 
             ' 
             Me.commandGalleryBarItem10.Gallery.ColumnCount = 4
-            Me.commandGalleryBarItem10.Gallery.ImageSize = New System.Drawing.Size(48, 48)
+            Me.commandGalleryBarItem10.Gallery.ImageSize = New Size(48, 48)
             Me.commandGalleryBarItem10.Gallery.ItemCheckMode = DevExpress.XtraBars.Ribbon.Gallery.ItemCheckMode.SingleRadio
             Me.commandGalleryBarItem10.Id = 92
             Me.commandGalleryBarItem10.Name = "commandGalleryBarItem10"
@@ -8654,7 +8654,7 @@ Namespace AIWizardCustomizationExample
             ' 
             ' 
             Me.commandGalleryBarItem11.Gallery.ColumnCount = 7
-            Me.commandGalleryBarItem11.Gallery.ImageSize = New System.Drawing.Size(48, 48)
+            Me.commandGalleryBarItem11.Gallery.ImageSize = New Size(48, 48)
             Me.commandGalleryBarItem11.Gallery.ItemCheckMode = DevExpress.XtraBars.Ribbon.Gallery.ItemCheckMode.SingleRadio
             Me.commandGalleryBarItem11.Id = 93
             Me.commandGalleryBarItem11.Name = "commandGalleryBarItem11"
@@ -8668,7 +8668,7 @@ Namespace AIWizardCustomizationExample
             ' 
             Me.commandGalleryBarItem12.Gallery.ColumnCount = 23
             Me.commandGalleryBarItem12.Gallery.DistanceBetweenItems = 16
-            Me.commandGalleryBarItem12.Gallery.ImageSize = New System.Drawing.Size(64, 64)
+            Me.commandGalleryBarItem12.Gallery.ImageSize = New Size(64, 64)
             Me.commandGalleryBarItem12.Gallery.ScaleImages = DevExpress.Utils.DefaultBoolean.[True]
             Me.commandGalleryBarItem12.Id = 94
             Me.commandGalleryBarItem12.Name = "commandGalleryBarItem12"
@@ -12158,7 +12158,7 @@ Namespace AIWizardCustomizationExample
             Me.commandGalleryBarItem13.Gallery.Appearance.ItemCaptionAppearance.Pressed.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
             Me.commandGalleryBarItem13.Gallery.Appearance.ItemCaptionAppearance.Pressed.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter
             Me.commandGalleryBarItem13.Gallery.ColumnCount = 7
-            Me.commandGalleryBarItem13.Gallery.ImageSize = New System.Drawing.Size(75, 30)
+            Me.commandGalleryBarItem13.Gallery.ImageSize = New Size(75, 30)
             Me.commandGalleryBarItem13.Gallery.ItemCheckMode = DevExpress.XtraBars.Ribbon.Gallery.ItemCheckMode.SingleCheck
             Me.commandGalleryBarItem13.Gallery.ShowItemText = True
             Me.commandGalleryBarItem13.Id = 89
@@ -12172,7 +12172,7 @@ Namespace AIWizardCustomizationExample
             ' 
             ' 
             Me.commandGalleryBarItem14.Gallery.ColumnCount = 8
-            Me.commandGalleryBarItem14.Gallery.ImageSize = New System.Drawing.Size(100, 33)
+            Me.commandGalleryBarItem14.Gallery.ImageSize = New Size(100, 33)
             Me.commandGalleryBarItem14.Gallery.ItemCheckMode = DevExpress.XtraBars.Ribbon.Gallery.ItemCheckMode.SingleRadio
             Me.commandGalleryBarItem14.Gallery.ShowItemText = True
             Me.commandGalleryBarItem14.Id = 90
@@ -12186,7 +12186,7 @@ Namespace AIWizardCustomizationExample
             ' 
             ' 
             Me.commandGalleryBarItem15.Gallery.ColumnCount = 7
-            Me.commandGalleryBarItem15.Gallery.ImageSize = New System.Drawing.Size(75, 45)
+            Me.commandGalleryBarItem15.Gallery.ImageSize = New Size(75, 45)
             Me.commandGalleryBarItem15.Gallery.ItemCheckMode = DevExpress.XtraBars.Ribbon.Gallery.ItemCheckMode.SingleRadio
             Me.commandGalleryBarItem15.Id = 91
             Me.commandGalleryBarItem15.Name = "commandGalleryBarItem15"
@@ -12199,7 +12199,7 @@ Namespace AIWizardCustomizationExample
             ' 
             ' 
             Me.commandGalleryBarItem16.Gallery.ColumnCount = 4
-            Me.commandGalleryBarItem16.Gallery.ImageSize = New System.Drawing.Size(48, 48)
+            Me.commandGalleryBarItem16.Gallery.ImageSize = New Size(48, 48)
             Me.commandGalleryBarItem16.Gallery.ItemCheckMode = DevExpress.XtraBars.Ribbon.Gallery.ItemCheckMode.SingleRadio
             Me.commandGalleryBarItem16.Id = 92
             Me.commandGalleryBarItem16.Name = "commandGalleryBarItem16"
@@ -12212,7 +12212,7 @@ Namespace AIWizardCustomizationExample
             ' 
             ' 
             Me.commandGalleryBarItem17.Gallery.ColumnCount = 7
-            Me.commandGalleryBarItem17.Gallery.ImageSize = New System.Drawing.Size(48, 48)
+            Me.commandGalleryBarItem17.Gallery.ImageSize = New Size(48, 48)
             Me.commandGalleryBarItem17.Gallery.ItemCheckMode = DevExpress.XtraBars.Ribbon.Gallery.ItemCheckMode.SingleRadio
             Me.commandGalleryBarItem17.Id = 93
             Me.commandGalleryBarItem17.Name = "commandGalleryBarItem17"
@@ -12226,7 +12226,7 @@ Namespace AIWizardCustomizationExample
             ' 
             Me.commandGalleryBarItem18.Gallery.ColumnCount = 23
             Me.commandGalleryBarItem18.Gallery.DistanceBetweenItems = 16
-            Me.commandGalleryBarItem18.Gallery.ImageSize = New System.Drawing.Size(64, 64)
+            Me.commandGalleryBarItem18.Gallery.ImageSize = New Size(64, 64)
             Me.commandGalleryBarItem18.Gallery.ScaleImages = DevExpress.Utils.DefaultBoolean.[True]
             Me.commandGalleryBarItem18.Id = 94
             Me.commandGalleryBarItem18.Name = "commandGalleryBarItem18"
@@ -14298,30 +14298,30 @@ Namespace AIWizardCustomizationExample
             ' 
             ' button1
             ' 
-            Me.button1.Location = New System.Drawing.Point(147, 201)
-            Me.button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+            Me.button1.Location = New Point(147, 201)
+            Me.button1.Margin = New Padding(2, 2, 2, 2)
             Me.button1.Name = "button1"
-            Me.button1.Size = New System.Drawing.Size(88, 29)
+            Me.button1.Size = New Size(88, 29)
             Me.button1.TabIndex = 4
             Me.button1.Text = "button1"
             Me.button1.UseVisualStyleBackColor = True
-            AddHandler Me.button1.Click, AddressOf Me.button1_Click
+            Me.button1.Click +=(AddressOf Me.button1_Click)
             ' 
             ' Form1
             ' 
-            Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0F, 16.0F)
+            Me.AutoScaleDimensions = New SizeF(7F, 16F)
             Me.AutoScaleMode = AutoScaleMode.Font
-            Me.ClientSize = New System.Drawing.Size(1573, 703)
+            Me.ClientSize = New Size(1573, 703)
             Me.Controls.Add(Me.button1)
             Me.Controls.Add(Me.panelContainer1)
             Me.Controls.Add(Me.panelContainer4)
             Me.Controls.Add(Me.ribbonStatusBar1)
             Me.Controls.Add(Me.ribbonControl1)
-            Me.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
+            Me.Margin = New Padding(2, 3, 2, 3)
             Me.Name = "Form1"
             Me.Ribbon = Me.ribbonControl1
             Me.StatusBar = Me.ribbonStatusBar1
-            Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+            Me.WindowState = FormWindowState.Maximized
             CType(Me.xrDesignRibbonController1, System.ComponentModel.ISupportInitialize).EndInit()
             CType(Me.ribbonControl1, System.ComponentModel.ISupportInitialize).EndInit()
             CType(Me.applicationMenu1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -15942,6 +15942,6 @@ Namespace AIWizardCustomizationExample
 
         Private zoomTrackBarEditItem3 As DevExpress.XtraPrinting.Preview.ZoomTrackBarEditItem
 
-        Private button1 As System.Windows.Forms.Button
+        Private button1 As Button
     End Class
 End Namespace

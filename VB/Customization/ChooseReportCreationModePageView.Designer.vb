@@ -1,5 +1,4 @@
 Imports DevExpress.AIIntegration.WinForms.Reporting.Wizard.Views
-Imports DevExpress.CodeParser
 
 Namespace AIWizardCustomizationExample.Customization
 
@@ -64,8 +63,8 @@ Namespace AIWizardCustomizationExample.Customization
             ' 
             resources.ApplyResources(Me.reportTypeGallery, "reportTypeGallery")
             Me.reportTypeGallery.Name = "reportTypeGallery"
-            AddHandler Me.reportTypeGallery.ItemCheckedChanged, New DevExpress.XtraBars.Ribbon.GalleryItemEventHandler(AddressOf Me.OnItemCheckedChanged)
-            AddHandler Me.reportTypeGallery.ItemDoubleClick, New DevExpress.XtraBars.Ribbon.GalleryItemClickEventHandler(AddressOf Me.OnItemDoubleClick)
+            Me.reportTypeGallery.ItemCheckedChanged += New DevExpress.XtraBars.Ribbon.GalleryItemEventHandler(AddressOf Me.OnItemCheckedChanged)
+            Me.reportTypeGallery.ItemDoubleClick += New DevExpress.XtraBars.Ribbon.GalleryItemClickEventHandler(AddressOf Me.OnItemDoubleClick)
             ' 
             ' AIChooseReportTypePageView
             ' 

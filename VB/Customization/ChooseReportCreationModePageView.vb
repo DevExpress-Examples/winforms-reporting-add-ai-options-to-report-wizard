@@ -37,10 +37,7 @@ Namespace AIWizardCustomizationExample.Customization
         Protected Overrides Sub OnLoad(ByVal e As EventArgs)
             MyBase.OnLoad(e)
             reportTypeGallery.ClearGallery()
-            reportTypeGallery.InitializeGallery(Sub(list)
-                                                    AddReportItems(list)
-                                                End Sub
-)
+            reportTypeGallery.InitializeGallery(Function(list) AddReportItems(list))
             reportTypeGallery.SetSkinStyle(LookAndFeel.ActiveSkinName)
         End Sub
 
@@ -55,7 +52,7 @@ Namespace AIWizardCustomizationExample.Customization
 
         Private Sub OnItemCheckedChanged(ByVal sender As Object, ByVal e As GalleryItemEventArgs)
             If Not e.Item.Checked Then Return
-            RaiseEvent CreationModeChanged(Me, EventArgs.Empty)
+            RaiseEvent CreationModeChangedEvent(Me, EventArgs.Empty)
         End Sub
 
         Private Sub OnItemDoubleClick(ByVal sender As Object, ByVal e As GalleryItemClickEventArgs)
