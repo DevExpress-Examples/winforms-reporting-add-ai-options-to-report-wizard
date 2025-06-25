@@ -1,3 +1,4 @@
+Imports AIWizardCustomizationExample.AIWizardCustomizationExample.Customization
 Imports AIWizardCustomizationExample.Customization
 Imports DevExpress.XtraBars.Ribbon
 Imports DevExpress.XtraPrinting.Native
@@ -5,7 +6,7 @@ Imports DevExpress.XtraReports.Wizards
 
 Namespace AIWizardCustomizationExample
 
-    Public Partial Class Form1
+    Partial Public Class Form1
         Inherits RibbonForm
 
         Public Sub New()

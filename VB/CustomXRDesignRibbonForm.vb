@@ -1,3 +1,4 @@
+Imports AIWizardCustomizationExample.AIWizardCustomizationExample.Customization
 Imports AIWizardCustomizationExample.Customization
 Imports DevExpress.XtraReports.UserDesigner
 Imports DevExpress.XtraReports.Wizards
@@ -8,7 +9,7 @@ Namespace AIWizardCustomizationExample
         Inherits XRDesignRibbonForm
 
         Public Sub New()
-            DesignMdiController.AddService(GetType(IWizardCustomizationService), New WizardCustomizationService())
+            DesignMdiController.AddService(GetType(DevExpress.XtraReports.Wizards.IWizardCustomizationService), New WizardCustomizationService())
         End Sub
 
         Protected Overrides Sub OnLoad(ByVal e As EventArgs)

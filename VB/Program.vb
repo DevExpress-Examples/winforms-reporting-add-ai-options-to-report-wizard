@@ -1,4 +1,4 @@
-Imports System.Net.Http
+Imports System.Windows.Forms
 Imports DevExpress.LookAndFeel
 Imports DevExpress.XtraEditors
 
@@ -20,7 +20,7 @@ Namespace AIWizardCustomizationExample
 
         Private ReadOnly Property DeploymentName As String
             Get
-                Return "gpt-4o-mini"
+                Return "MODEL_NAME"
             End Get
         End Property
 
@@ -31,10 +31,10 @@ Namespace AIWizardCustomizationExample
         Sub Main()
             WindowsFormsSettings.SetDPIAware()
             WindowsFormsSettings.TrackWindowsAppMode = DevExpress.Utils.DefaultBoolean.[True]
-            Application.EnableVisualStyles()
+            Call Application.EnableVisualStyles()
             Application.SetCompatibleTextRenderingDefault(False)
             UserLookAndFeel.Default.SetSkinStyle(SkinStyle.WXI)
-            Application.Run(New CustomXRDesignRibbonForm())
+            Call Application.Run(New CustomXRDesignRibbonForm())
         End Sub
     End Module
 End Namespace
