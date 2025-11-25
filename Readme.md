@@ -8,7 +8,7 @@
 
 You can add AI-powered report generation options to the DevExpress Report Wizard by:  
 
-* Registering the [ReportPromptToReportBehavior](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.WinForms.Reporting.ReportPromptToReportBehavior?v=25.1&p=netframework) extension. This approach adds predefined AI-related pages to the Report Wizard. This also means that the Wizard uses a predefined first page and overrides any customizations you may have implemented for this page. Refer to the following BC for additional information: Report Wizard - [Report Wizard - "Choose a Report Type" page customization option is disabled when you create reports with an AI-powered Extension (ReportPromptToReportBehavior)](https://isc.devexpress.com/internal/ticket/details/t1290568).
+* Registering the [ReportPromptToReportBehavior](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.WinForms.Reporting.ReportPromptToReportBehavior) extension. This approach adds predefined AI-related pages to the Report Wizard. This also means that the Wizard uses a predefined first page and overrides any customizations you may have implemented for this page. Refer to the following BC for additional information: Report Wizard - [Report Wizard - "Choose a Report Type" page customization option is disabled when you create reports with an AI-powered Extension (ReportPromptToReportBehavior)](https://isc.devexpress.com/internal/ticket/details/t1290568).
 
 * Creating and registering your AI-powered Report Wizard manually. This approach allows you to incorporate AI options within the Wizard and customize associated pages as needs dictate. 
 
@@ -65,9 +65,9 @@ The following pages are registered:
 |View|Presenter|
 |---|---|
 |ChooseReportCreationModePageView|ChooseReportCreationModePage|
-|[AIChooseDataSourceOptionPageView](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.WinForms.Reporting.Wizard.Views.AIChooseDataSourceOptionPageView)|[AIChooseDataSourceOptionPage](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.Reporting.Wizard.Presenters.AIChooseDataSourceOptionPage-1?v=25.1&p=netframework)|
-|[AINoDataEnterReportPromptPageView](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.WinForms.Reporting.Wizard.Views.AINoDataEnterReportPromptPageView?v=25.1&p=netframework)|[AINoDataEnterReportPromptPage](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.Reporting.Wizard.Presenters.AINoDataEnterReportPromptPage-1?v=25.1&p=netframework)|
-|[AIDataBoundEnterReportPromptPageView](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.WinForms.Reporting.Wizard.Views.AIDataBoundEnterReportPromptPageView?v=25.1&p=netframework)|[AIDataBoundEnterReportPromptPage](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.Reporting.Wizard.Presenters.AIDataBoundEnterReportPromptPage-1?v=25.1&p=netframework)|
+|[AIChooseDataSourceOptionPageView](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.WinForms.Reporting.Wizard.Views.AIChooseDataSourceOptionPageView)|[AIChooseDataSourceOptionPage](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.Reporting.Wizard.Presenters.AIChooseDataSourceOptionPage-1)|
+|[AINoDataEnterReportPromptPageView](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.WinForms.Reporting.Wizard.Views.AINoDataEnterReportPromptPageView)|[AINoDataEnterReportPromptPage](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.Reporting.Wizard.Presenters.AINoDataEnterReportPromptPage-1)|
+|[AIDataBoundEnterReportPromptPageView](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.WinForms.Reporting.Wizard.Views.AIDataBoundEnterReportPromptPageView)|[AIDataBoundEnterReportPromptPage](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.Reporting.Wizard.Presenters.AIDataBoundEnterReportPromptPage-1)|
 
 * `SetAIParameters()` - initializes default values for AI settings. 
 
@@ -77,7 +77,7 @@ The following pages are registered:
 
 **File to review:** [WizardCustomizationService](./CS/Customization/WizardCustomizationService.cs)
 
-Use [AIReportBuilder](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.WinForms.Reporting.Wizard.AIReportBuilder?v=25.1&p=netframework) to build an AI-generated report based on the resulting report model.  
+Use [AIReportBuilder](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.WinForms.Reporting.Wizard.AIReportBuilder) to build an AI-generated report based on the resulting report model.  
 
 ## Register AI Client
 
@@ -101,10 +101,7 @@ Specify your credentials in the following code:
     ```    
 
 
-For information on AI Client registration, refer to the following section in our AI Integration help topic: [Register AI Clients](https://docs.devexpress.com/WindowsForms/405151/ai-powered-extensions?v=25.1#register-ai-clients).
-
-
-
+For information on AI Client registration, refer to the following section in our AI Integration help topic: [Register AI Clients](https://docs.devexpress.com/WindowsForms/405151/ai-powered-extensions).
 
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?

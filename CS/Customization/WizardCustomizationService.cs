@@ -10,6 +10,7 @@ using DevExpress.AIIntegration.WinForms.Reporting.Wizard.Views;
 using DevExpress.Data.Utils;
 using DevExpress.DataAccess.UI.Wizard;
 using DevExpress.DataAccess.Wizard.Model;
+using DevExpress.XtraEditors.AI.Native;
 using DevExpress.XtraReports.Design;
 using DevExpress.XtraReports.UI;
 using DevExpress.XtraReports.Wizards;
