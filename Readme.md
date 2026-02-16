@@ -104,7 +104,7 @@ Specify your credentials in the following code:
 For information on AI Client registration, refer to the following section in our AI Integration help topic: [Register AI Clients](https://docs.devexpress.com/WindowsForms/405151/ai-powered-extensions).
 
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-reporting-add-ai-options-to-report-wizard&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-reporting-add-ai-options-to-report-wizard&~~~was_helpful=no)
 
