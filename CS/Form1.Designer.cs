@@ -2690,19 +2690,19 @@
             ribbonControl1.ApplicationButtonDropDownControl = applicationMenu1;
             ribbonControl1.AutoHideEmptyItems = true;
             ribbonControl1.AutoSizeItems = true;
-            ribbonControl1.EmptyAreaImageOptions.ImagePadding = new Padding(17, 19, 17, 19);
+            ribbonControl1.EmptyAreaImageOptions.ImagePadding = new Padding(15);
             ribbonControl1.ExpandCollapseItem.Id = 232;
             ribbonControl1.Items.AddRange(new DevExpress.XtraBars.BarItem[] { ribbonControl1.ExpandCollapseItem });
             ribbonControl1.Location = new Point(0, 0);
-            ribbonControl1.Margin = new Padding(2, 2, 2, 2);
+            ribbonControl1.Margin = new Padding(2);
             ribbonControl1.MaxItemId = 233;
             ribbonControl1.Name = "ribbonControl1";
-            ribbonControl1.OptionsMenuMinWidth = 192;
+            ribbonControl1.OptionsMenuMinWidth = 165;
             ribbonControl1.PageCategories.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageCategory[] { characterCombRibbonPageCategory, tableRibbonPageCategory, chartRibbonPageCategory, pivotGridRibbonPageCategory, barCodeRibbonPageCategory, gaugeRibbonPageCategory, sparklineRibbonPageCategory, shapeRibbonPageCategory, labelRibbonPageCategory });
             ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] { homeRibbonPage, layoutRibbonPage, pageRibbonPage, viewRibbonPage, scriptsRibbonPage, printPreviewRibbonPage });
             ribbonControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] { recentlyUsedItemsComboBox1, designRepositoryItemComboBox1, repositoryItemLookUpEdit1, repositoryItemSpinEdit1, repositoryItemSpinEdit2, repositoryItemSpinEdit3, repositoryItemSpinEdit4, repositoryItemImageComboBox1, repositoryItemLookUpEdit2, repositoryItemComboBox1, repositoryItemProgressBar1, repositoryItemZoomTrackBar1 });
             ribbonControl1.ShowItemCaptionsInPageHeader = true;
-            ribbonControl1.Size = new Size(1573, 193);
+            ribbonControl1.Size = new Size(1348, 158);
             ribbonControl1.StatusBar = ribbonStatusBar1;
             ribbonControl1.TransparentEditorsMode = DevExpress.Utils.DefaultBoolean.True;
             // 
@@ -3408,11 +3408,11 @@
             // 
             // ribbonStatusBar1
             // 
-            ribbonStatusBar1.Location = new Point(0, 673);
-            ribbonStatusBar1.Margin = new Padding(2, 2, 2, 2);
+            ribbonStatusBar1.Location = new Point(0, 547);
+            ribbonStatusBar1.Margin = new Padding(2);
             ribbonStatusBar1.Name = "ribbonStatusBar1";
             ribbonStatusBar1.Ribbon = ribbonControl1;
-            ribbonStatusBar1.Size = new Size(1573, 30);
+            ribbonStatusBar1.Size = new Size(1348, 24);
             // 
             // xrDesignDockManager1
             // 
@@ -3427,11 +3427,11 @@
             panelContainer1.Controls.Add(panelContainer3);
             panelContainer1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Right;
             panelContainer1.ID = new Guid("1f63edf6-5f7a-4c09-8688-ff339a62a2c1");
-            panelContainer1.Location = new Point(635, 193);
-            panelContainer1.Margin = new Padding(2, 2, 2, 2);
+            panelContainer1.Location = new Point(598, 158);
+            panelContainer1.Margin = new Padding(2);
             panelContainer1.Name = "panelContainer1";
             panelContainer1.OriginalSize = new Size(750, 200);
-            panelContainer1.Size = new Size(938, 480);
+            panelContainer1.Size = new Size(750, 389);
             panelContainer1.Text = "panelContainer1";
             // 
             // panelContainer2
@@ -3442,10 +3442,10 @@
             panelContainer2.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill;
             panelContainer2.ID = new Guid("61258954-98d1-40b2-aa9d-09b2ac3024e2");
             panelContainer2.Location = new Point(0, 0);
-            panelContainer2.Margin = new Padding(2, 2, 2, 2);
+            panelContainer2.Margin = new Padding(2);
             panelContainer2.Name = "panelContainer2";
-            panelContainer2.OriginalSize = new Size(751, 370);
-            panelContainer2.Size = new Size(938, 240);
+            panelContainer2.OriginalSize = new Size(938, 240);
+            panelContainer2.Size = new Size(750, 195);
             panelContainer2.Tabbed = true;
             panelContainer2.Text = "panelContainer2";
             // 
@@ -3454,19 +3454,19 @@
             reportExplorerDockPanel1.Controls.Add(reportExplorerDockPanel1_Container);
             reportExplorerDockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill;
             reportExplorerDockPanel1.ID = new Guid("fb3ec6cc-3b9b-4b9c-91cf-cff78c1edbf1");
-            reportExplorerDockPanel1.Location = new Point(1, 28);
-            reportExplorerDockPanel1.Margin = new Padding(2, 2, 2, 2);
+            reportExplorerDockPanel1.Location = new Point(1, 23);
+            reportExplorerDockPanel1.Margin = new Padding(2);
             reportExplorerDockPanel1.Name = "reportExplorerDockPanel1";
-            reportExplorerDockPanel1.OriginalSize = new Size(747, 277);
-            reportExplorerDockPanel1.Size = new Size(937, 180);
+            reportExplorerDockPanel1.OriginalSize = new Size(937, 180);
+            reportExplorerDockPanel1.Size = new Size(749, 145);
             reportExplorerDockPanel1.Text = "Report Explorer";
             // 
             // reportExplorerDockPanel1_Container
             // 
             reportExplorerDockPanel1_Container.Location = new Point(0, 0);
-            reportExplorerDockPanel1_Container.Margin = new Padding(2, 2, 2, 2);
+            reportExplorerDockPanel1_Container.Margin = new Padding(2);
             reportExplorerDockPanel1_Container.Name = "reportExplorerDockPanel1_Container";
-            reportExplorerDockPanel1_Container.Size = new Size(937, 180);
+            reportExplorerDockPanel1_Container.Size = new Size(749, 145);
             reportExplorerDockPanel1_Container.TabIndex = 0;
             // 
             // fieldListDockPanel1
@@ -3474,19 +3474,19 @@
             fieldListDockPanel1.Controls.Add(fieldListDockPanel1_Container);
             fieldListDockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill;
             fieldListDockPanel1.ID = new Guid("faf69838-a93f-4114-83e8-d0d09cc5ce95");
-            fieldListDockPanel1.Location = new Point(1, 28);
-            fieldListDockPanel1.Margin = new Padding(2, 2, 2, 2);
+            fieldListDockPanel1.Location = new Point(1, 23);
+            fieldListDockPanel1.Margin = new Padding(2);
             fieldListDockPanel1.Name = "fieldListDockPanel1";
-            fieldListDockPanel1.OriginalSize = new Size(747, 277);
-            fieldListDockPanel1.Size = new Size(937, 180);
+            fieldListDockPanel1.OriginalSize = new Size(937, 180);
+            fieldListDockPanel1.Size = new Size(749, 145);
             fieldListDockPanel1.Text = "Field List";
             // 
             // fieldListDockPanel1_Container
             // 
             fieldListDockPanel1_Container.Location = new Point(0, 0);
-            fieldListDockPanel1_Container.Margin = new Padding(2, 2, 2, 2);
+            fieldListDockPanel1_Container.Margin = new Padding(2);
             fieldListDockPanel1_Container.Name = "fieldListDockPanel1_Container";
-            fieldListDockPanel1_Container.Size = new Size(937, 180);
+            fieldListDockPanel1_Container.Size = new Size(749, 145);
             fieldListDockPanel1_Container.TabIndex = 0;
             // 
             // panelContainer3
@@ -3496,11 +3496,11 @@
             panelContainer3.Controls.Add(reportGalleryDockPanel1);
             panelContainer3.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill;
             panelContainer3.ID = new Guid("3e37460c-3ef7-430d-9728-333e621d182c");
-            panelContainer3.Location = new Point(0, 240);
-            panelContainer3.Margin = new Padding(2, 2, 2, 2);
+            panelContainer3.Location = new Point(0, 195);
+            panelContainer3.Margin = new Padding(2);
             panelContainer3.Name = "panelContainer3";
-            panelContainer3.OriginalSize = new Size(751, 370);
-            panelContainer3.Size = new Size(938, 240);
+            panelContainer3.OriginalSize = new Size(938, 240);
+            panelContainer3.Size = new Size(750, 194);
             panelContainer3.Tabbed = true;
             panelContainer3.Text = "panelContainer3";
             // 
@@ -3509,19 +3509,19 @@
             propertyGridDockPanel1.Controls.Add(propertyGridDockPanel1_Container);
             propertyGridDockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill;
             propertyGridDockPanel1.ID = new Guid("b38d12c3-cd06-4dec-b93d-63a0088e495a");
-            propertyGridDockPanel1.Location = new Point(1, 29);
-            propertyGridDockPanel1.Margin = new Padding(2, 2, 2, 2);
+            propertyGridDockPanel1.Location = new Point(1, 24);
+            propertyGridDockPanel1.Margin = new Padding(2);
             propertyGridDockPanel1.Name = "propertyGridDockPanel1";
-            propertyGridDockPanel1.OriginalSize = new Size(747, 273);
-            propertyGridDockPanel1.Size = new Size(937, 179);
+            propertyGridDockPanel1.OriginalSize = new Size(937, 178);
+            propertyGridDockPanel1.Size = new Size(749, 143);
             propertyGridDockPanel1.Text = "Properties";
             // 
             // propertyGridDockPanel1_Container
             // 
             propertyGridDockPanel1_Container.Location = new Point(0, 0);
-            propertyGridDockPanel1_Container.Margin = new Padding(2, 2, 2, 2);
+            propertyGridDockPanel1_Container.Margin = new Padding(2);
             propertyGridDockPanel1_Container.Name = "propertyGridDockPanel1_Container";
-            propertyGridDockPanel1_Container.Size = new Size(937, 179);
+            propertyGridDockPanel1_Container.Size = new Size(749, 143);
             propertyGridDockPanel1_Container.TabIndex = 0;
             // 
             // reportGalleryDockPanel1
@@ -3529,19 +3529,19 @@
             reportGalleryDockPanel1.Controls.Add(reportGalleryDockPanel1_Container);
             reportGalleryDockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill;
             reportGalleryDockPanel1.ID = new Guid("7cd5b1e8-63bb-46f7-af65-af61eb851a38");
-            reportGalleryDockPanel1.Location = new Point(1, 29);
-            reportGalleryDockPanel1.Margin = new Padding(2, 2, 2, 2);
+            reportGalleryDockPanel1.Location = new Point(1, 24);
+            reportGalleryDockPanel1.Margin = new Padding(2);
             reportGalleryDockPanel1.Name = "reportGalleryDockPanel1";
-            reportGalleryDockPanel1.OriginalSize = new Size(747, 273);
-            reportGalleryDockPanel1.Size = new Size(937, 179);
+            reportGalleryDockPanel1.OriginalSize = new Size(937, 178);
+            reportGalleryDockPanel1.Size = new Size(749, 143);
             reportGalleryDockPanel1.Text = "Report Gallery";
             // 
             // reportGalleryDockPanel1_Container
             // 
             reportGalleryDockPanel1_Container.Location = new Point(0, 0);
-            reportGalleryDockPanel1_Container.Margin = new Padding(2, 2, 2, 2);
+            reportGalleryDockPanel1_Container.Margin = new Padding(2);
             reportGalleryDockPanel1_Container.Name = "reportGalleryDockPanel1_Container";
-            reportGalleryDockPanel1_Container.Size = new Size(937, 179);
+            reportGalleryDockPanel1_Container.Size = new Size(749, 143);
             reportGalleryDockPanel1_Container.TabIndex = 0;
             // 
             // panelContainer4
@@ -3551,11 +3551,11 @@
             panelContainer4.Controls.Add(errorListDockPanel1);
             panelContainer4.Dock = DevExpress.XtraBars.Docking.DockingStyle.Bottom;
             panelContainer4.ID = new Guid("a944d466-aa4c-4815-978f-5922a4e730fe");
-            panelContainer4.Location = new Point(0, 173);
-            panelContainer4.Margin = new Padding(2, 2, 2, 2);
+            panelContainer4.Location = new Point(0, 147);
+            panelContainer4.Margin = new Padding(2);
             panelContainer4.Name = "panelContainer4";
             panelContainer4.OriginalSize = new Size(200, 400);
-            panelContainer4.Size = new Size(635, 500);
+            panelContainer4.Size = new Size(598, 400);
             panelContainer4.Tabbed = true;
             panelContainer4.Text = "panelContainer4";
             // 
@@ -3564,19 +3564,19 @@
             groupAndSortDockPanel1.Controls.Add(groupAndSortDockPanel1_Container);
             groupAndSortDockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill;
             groupAndSortDockPanel1.ID = new Guid("4bab159e-c495-4d67-87dc-f4e895da443e");
-            groupAndSortDockPanel1.Location = new Point(0, 29);
-            groupAndSortDockPanel1.Margin = new Padding(2, 2, 2, 2);
+            groupAndSortDockPanel1.Location = new Point(0, 24);
+            groupAndSortDockPanel1.Margin = new Padding(2);
             groupAndSortDockPanel1.Name = "groupAndSortDockPanel1";
-            groupAndSortDockPanel1.OriginalSize = new Size(1946, 303);
-            groupAndSortDockPanel1.Size = new Size(635, 439);
+            groupAndSortDockPanel1.OriginalSize = new Size(635, 439);
+            groupAndSortDockPanel1.Size = new Size(598, 349);
             groupAndSortDockPanel1.Text = "Group and Sort";
             // 
             // groupAndSortDockPanel1_Container
             // 
             groupAndSortDockPanel1_Container.Location = new Point(0, 0);
-            groupAndSortDockPanel1_Container.Margin = new Padding(2, 2, 2, 2);
+            groupAndSortDockPanel1_Container.Margin = new Padding(2);
             groupAndSortDockPanel1_Container.Name = "groupAndSortDockPanel1_Container";
-            groupAndSortDockPanel1_Container.Size = new Size(635, 439);
+            groupAndSortDockPanel1_Container.Size = new Size(598, 349);
             groupAndSortDockPanel1_Container.TabIndex = 0;
             // 
             // errorListDockPanel1
@@ -3584,19 +3584,19 @@
             errorListDockPanel1.Controls.Add(errorListDockPanel1_Container);
             errorListDockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill;
             errorListDockPanel1.ID = new Guid("5a9a01fd-6e95-4e81-a8c4-ac63153d7488");
-            errorListDockPanel1.Location = new Point(0, 29);
-            errorListDockPanel1.Margin = new Padding(2, 2, 2, 2);
+            errorListDockPanel1.Location = new Point(0, 24);
+            errorListDockPanel1.Margin = new Padding(2);
             errorListDockPanel1.Name = "errorListDockPanel1";
-            errorListDockPanel1.OriginalSize = new Size(1946, 303);
-            errorListDockPanel1.Size = new Size(635, 439);
+            errorListDockPanel1.OriginalSize = new Size(635, 439);
+            errorListDockPanel1.Size = new Size(598, 349);
             errorListDockPanel1.Text = "Report Design Analyzer";
             // 
             // errorListDockPanel1_Container
             // 
             errorListDockPanel1_Container.Location = new Point(0, 0);
-            errorListDockPanel1_Container.Margin = new Padding(2, 2, 2, 2);
+            errorListDockPanel1_Container.Margin = new Padding(2);
             errorListDockPanel1_Container.Name = "errorListDockPanel1_Container";
-            errorListDockPanel1_Container.Size = new Size(635, 439);
+            errorListDockPanel1_Container.Size = new Size(598, 349);
             errorListDockPanel1_Container.TabIndex = 0;
             // 
             // commandBarItem1
@@ -14297,10 +14297,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(147, 201);
-            button1.Margin = new Padding(2, 2, 2, 2);
+            button1.Location = new Point(126, 163);
+            button1.Margin = new Padding(2);
             button1.Name = "button1";
-            button1.Size = new Size(88, 29);
+            button1.Size = new Size(75, 24);
             button1.TabIndex = 4;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
@@ -14308,15 +14308,15 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new SizeF(7F, 16F);
+            this.AutoScaleDimensions = new SizeF(6F, 13F);
             this.AutoScaleMode = AutoScaleMode.Font;
-            this.ClientSize = new Size(1573, 703);
+            this.ClientSize = new Size(1348, 571);
             this.Controls.Add(button1);
             this.Controls.Add(panelContainer1);
             this.Controls.Add(panelContainer4);
-            this.Controls.Add(ribbonStatusBar1);
             this.Controls.Add(ribbonControl1);
-            this.Margin = new Padding(2, 3, 2, 3);
+            this.Controls.Add(ribbonStatusBar1);
+            this.Margin = new Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Ribbon = ribbonControl1;
             this.StatusBar = ribbonStatusBar1;

@@ -1,6 +1,10 @@
 Imports System.Windows.Forms
+Imports Azure
+Imports Azure.AI.OpenAI
+Imports DevExpress.AIIntegration
 Imports DevExpress.LookAndFeel
 Imports DevExpress.XtraEditors
+Imports Microsoft.Extensions.AI
 
 Namespace AIWizardCustomizationExample
 
@@ -34,6 +38,13 @@ Namespace AIWizardCustomizationExample
             Call Application.EnableVisualStyles()
             Application.SetCompatibleTextRenderingDefault(False)
             UserLookAndFeel.Default.SetSkinStyle(SkinStyle.WXI)
+            Dim client As New AzureOpenAIClient(
+            New Uri(AzureOpenAIEndpoint),
+            New AzureKeyCredential(AzureOpenAIKey)
+            )
+            Dim chatClient = client.GetChatClient(DeploymentName).AsIChatClient()
+
+            AIExtensionsContainerDesktop.Default.RegisterChatClient(chatClient)
             Call Application.Run(New CustomXRDesignRibbonForm())
         End Sub
     End Module

@@ -20,17 +20,10 @@ Namespace AIWizardCustomizationExample.Customization
     Friend Class WizardCustomizationService
         Implements IWizardCustomizationService
         Public Sub CustomizeReportWizard(ByVal tool As IWizardCustomization(Of XtraReportModel)) Implements IWizardCustomizationService.CustomizeReportWizard
+            tool.RegisterAIReportWizard()
             tool.StartPage = GetType(ChooseReportCreationModePage(Of XtraReportModel))
             tool.RegisterPage(Of ChooseReportCreationModePage(Of XtraReportModel), ChooseReportCreationModePage(Of XtraReportModel))()
             tool.RegisterPageView(Of IChooseReportCreationModePageView, ChooseReportCreationModePageView)()
-            tool.RegisterPage(Of AIChooseDataSourceOptionPage(Of XtraReportModel), AIChooseDataSourceOptionPage(Of XtraReportModel))()
-            tool.RegisterPageView(Of IAIChooseDataSourceOptionPageView, AIChooseDataSourceOptionPageView)()
-            tool.RegisterPage(Of AINoDataEnterReportPromptPage(Of XtraReportModel), AINoDataEnterReportPromptPage(Of XtraReportModel))()
-            tool.RegisterPageView(Of IAINoDataEnterReportPromptPageView, AINoDataEnterReportPromptPageView)()
-            tool.RegisterPage(Of AIDataBoundEnterReportPromptPage(Of XtraReportModel), AIDataBoundEnterReportPromptPage(Of XtraReportModel))()
-            tool.RegisterPageView(Of IAIDataBoundEnterReportPromptPageView, AIDataBoundEnterReportPromptPageView)()
-            tool.Model.SetAIParameters(New AIParameters())
-            tool.Model.SetPredefinedAIReportPrompts(AIReportPromptCollection.GetDefaultReportPrompts())
         End Sub
 
         Public Sub CustomizeDataSourceWizard(ByVal tool As IWizardCustomization(Of XtraReportModel)) Implements IWizardCustomizationService.CustomizeDataSourceWizard

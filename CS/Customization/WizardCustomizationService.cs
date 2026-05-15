@@ -18,17 +18,10 @@ using DevExpress.XtraReports.Wizards;
 namespace AIWizardCustomizationExample.Customization {
     internal class WizardCustomizationService : IWizardCustomizationService {
         public void CustomizeReportWizard(IWizardCustomization<XtraReportModel> tool) {
+            tool.RegisterAIReportWizard();
             tool.StartPage = typeof(ChooseReportCreationModePage<XtraReportModel>);
             tool.RegisterPage<ChooseReportCreationModePage<XtraReportModel>, ChooseReportCreationModePage<XtraReportModel>>();
             tool.RegisterPageView<IChooseReportCreationModePageView, ChooseReportCreationModePageView>();
-            tool.RegisterPage<AIChooseDataSourceOptionPage<XtraReportModel>, AIChooseDataSourceOptionPage<XtraReportModel>>();
-            tool.RegisterPageView<IAIChooseDataSourceOptionPageView, AIChooseDataSourceOptionPageView>();
-            tool.RegisterPage<AINoDataEnterReportPromptPage<XtraReportModel>, AINoDataEnterReportPromptPage<XtraReportModel>>();
-            tool.RegisterPageView<IAINoDataEnterReportPromptPageView, AINoDataEnterReportPromptPageView>();
-            tool.RegisterPage<AIDataBoundEnterReportPromptPage<XtraReportModel>, AIDataBoundEnterReportPromptPage<XtraReportModel>>();
-            tool.RegisterPageView<IAIDataBoundEnterReportPromptPageView, AIDataBoundEnterReportPromptPageView>();
-            tool.Model.SetAIParameters(new AIParameters());
-            tool.Model.SetPredefinedAIReportPrompts(AIReportPromptCollection.GetDefaultReportPrompts());
         }
 
         public void CustomizeDataSourceWizard(IWizardCustomization<XtraReportModel> tool) { }
