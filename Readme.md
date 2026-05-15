@@ -59,19 +59,7 @@ The following classes identify a custom Report Wizard page:
 **File to review:** [WizardCustomizationService](./CS/Customization/WizardCustomizationService.cs)
 
 `WizardCustomizationService` implements the `IWizardCustomizationService` interface. This interface exposes methods and allows you to register custom Report Wizard page content and obtain Wizard-related resources. 
-
-The following pages are registered:
-
-|View|Presenter|
-|---|---|
-|ChooseReportCreationModePageView|ChooseReportCreationModePage|
-|[AIChooseDataSourceOptionPageView](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.WinForms.Reporting.Wizard.Views.AIChooseDataSourceOptionPageView)|[AIChooseDataSourceOptionPage](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.Reporting.Wizard.Presenters.AIChooseDataSourceOptionPage-1)|
-|[AINoDataEnterReportPromptPageView](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.WinForms.Reporting.Wizard.Views.AINoDataEnterReportPromptPageView)|[AINoDataEnterReportPromptPage](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.Reporting.Wizard.Presenters.AINoDataEnterReportPromptPage-1)|
-|[AIDataBoundEnterReportPromptPageView](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.WinForms.Reporting.Wizard.Views.AIDataBoundEnterReportPromptPageView)|[AIDataBoundEnterReportPromptPage](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.Reporting.Wizard.Presenters.AIDataBoundEnterReportPromptPage-1)|
-
-* `SetAIParameters()` - initializes default values for AI settings. 
-
-* `SetPredefinedAIReportPrompts()` - adds built-in DevExpress prompts from `AIReportPromptCollection` to the Report Wizard. 
+Call the `DevExpress.AIIntegration.WinForms.Reporting.Wizard.AIReportWizardExtensions.RegisterAIReportWizard` extension method to register all required AI Report Wizard pages, views, and services.
 
 ## Use the Report Builder 
 
