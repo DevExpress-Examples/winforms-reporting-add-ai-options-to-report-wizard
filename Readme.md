@@ -8,7 +8,7 @@
 
 You can add AI-powered report generation options to the DevExpress Report Wizard by:  
 
-* Registering the [ReportPromptToReportBehavior](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.WinForms.Reporting.ReportPromptToReportBehavior) extension. This approach adds predefined AI-related pages to the Report Wizard. This also means that the Wizard uses a predefined first page and overrides any customizations you may have implemented for this page. Refer to the following BC for additional information: Report Wizard - [Report Wizard - "Choose a Report Type" page customization option is disabled when you create reports with an AI-powered Extension (ReportPromptToReportBehavior)](https://isc.devexpress.com/internal/ticket/details/t1290568).
+* Registering the [ReportPromptToReportBehavior](https://docs.devexpress.com/XtraReports/DevExpress.AIIntegration.WinForms.Reporting.ReportPromptToReportBehavior) extension. This approach adds predefined AI-related pages to the Report Wizard. This also means that the Wizard uses a predefined first page and overrides any customizations you may have implemented for this page. Refer to the following BC for additional information: Report Wizard - [Report Wizard - "Choose a Report Type" page customization option is disabled when you create reports with an AI-powered Extension (ReportPromptToReportBehavior)](https://supportcenter.devexpress.com/ticket/details/t1290568/report-wizard-choose-a-report-type-page-customization-option-is-disabled-when-you-create).
 
 * Creating and registering your AI-powered Report Wizard manually. This approach allows you to incorporate AI options within the Wizard and customize associated pages as needs dictate. 
 
