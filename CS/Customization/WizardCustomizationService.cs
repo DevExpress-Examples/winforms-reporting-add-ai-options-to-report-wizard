@@ -1,10 +1,8 @@
-﻿using System.ComponentModel.Design;
+﻿using DevExpress.AIIntegration.Internal;
 using DevExpress.AIIntegration.Reporting;
 using DevExpress.AIIntegration.Reporting.Wizard;
 using DevExpress.AIIntegration.Reporting.Wizard.Presenters;
 using DevExpress.AIIntegration.Reporting.Wizard.Views;
-using DevExpress.AIIntegration.WinForms;
-using DevExpress.AIIntegration.WinForms.Reporting;
 using DevExpress.AIIntegration.WinForms.Reporting.Wizard;
 using DevExpress.AIIntegration.WinForms.Reporting.Wizard.Views;
 using DevExpress.Data.Utils;
@@ -14,6 +12,7 @@ using DevExpress.XtraEditors.AI.Native;
 using DevExpress.XtraReports.Design;
 using DevExpress.XtraReports.UI;
 using DevExpress.XtraReports.Wizards;
+using System.ComponentModel.Design;
 
 namespace AIWizardCustomizationExample.Customization {
     internal class WizardCustomizationService : IWizardCustomizationService {
@@ -55,10 +54,14 @@ namespace AIWizardCustomizationExample.Customization {
             using(var waitForm = new AIOverlayForm()) {
                 waitForm.ShowLoading(control);
                 try {
+                    var aiService = new DevExpress.AIIntegration.WinForms.Reporting.Internal.AIReportService(designerHost);
+                    designerHost.AddService(typeof(IAIReportingService), aiService);
                     action();
                     waitForm.Close();
                 } catch(Exception ex) {
                     waitForm.ShowError(control, ex.Message, false);
+                } finally {
+                    designerHost.RemoveService(typeof(IAIReportingService));
                 }
             }
         }
